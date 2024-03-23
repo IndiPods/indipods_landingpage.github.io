@@ -21,7 +21,7 @@ MOBILE APPLICATION
         background-color: #7aacff;
         background-image: url("webpage_mobile.png");
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100vw 100vh;
     }
 
     .container {
