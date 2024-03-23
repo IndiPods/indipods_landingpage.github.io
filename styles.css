@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+
+
+MOBILE APPLICATION 
+
+
+
+*/
+
+@media screen and (max-aspect-ratio: 1.1) {
+    body {
+        
+        margin: 0;
+        padding: 0;
+        background-color: #7aacff;
+        background-image: url("webpage_mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+    }
+    
+    .container {
+        width: 100vw;
+        height: 100vh;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        align-items: center; /* Center the image vertically */
+    }
+    
+    
+    .logo{
+        position: absolute;
+        width: 33%;
+        height: auto;
+        margin-top: -59%;
+        margin-left: 3%;
+        transition: transform 0.3s; /* Add transition for smooth effect */
+        justify-content: center;
+    }
+    
+    .logo:hover {
+    
+        transform: scale(1.25); /* Enlarge the logo when hovered */
+    }
+    
+    .text {
+        position: absolute;
+        max-width: 90%; /* Set maximum width to 50% of the container width */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: -8%; /* Adjust as needed */
+    }
+    .button {
+        position: absolute;
+        margin-top: 25%; /* Adjust as needed */
+        padding: 4% 12%; /* Responsive padding */
+        border: 1px solid #ffffff; /* Border color */
+        color: #ffffff; /* Text color */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3vw; /* Responsive font size */
+        border-radius: 8vw; /* Responsive border radius */
+        background-color: transparent; /* No background color */
+        font-family: 'Gilroy', sans-serif; /* Set font to Gilroy */
+        transition: transform 0.3s; /* Add transition for smooth effect */
+    }
+    
+    .button:hover {
+        transform: scale(1.20); /* Enlarge the logo when hovered */
+    }
+}
+
+/* 
+
+DESKTOP SITE  
+
+
+*/
+
+
+/* Media query for screens with aspect ratio greater than 16:9 */
+@media screen and (min-aspect-ratio: 1.1) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #7aacff;
+        background-image: url("webpage.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center; /* Center the image horizontally */
+        align-items: center; /* Center the image vertically */
+    }
+    
+    
+    .logo{
+        position: absolute;
+        width: 15%;
+        height: auto;
+        margin-top: -25%;
+        margin-left: 3%;
+        transition: transform 0.3s; /* Add transition for smooth effect */
+        justify-content: center;
+    }
+    
+    .logo:hover {
+    
+        transform: scale(1.25); /* Enlarge the logo when hovered */
+    }
+    
+    .text {
+        position: absolute;
+        max-width: 70%; /* Set maximum width to 50% of the container width */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 4%; /* Adjust as needed */
+    }
+    .button {
+        position: absolute;
+        margin-top: 22%; /* Adjust as needed */
+        padding: 1.15% 3.8%; /* Responsive padding */
+        border: 2px solid #ffffff; /* Border color */
+        color: #ffffff; /* Text color */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5vw; /* Responsive font size */
+        border-radius: 5vw; /* Responsive border radius */
+        background-color: transparent; /* No background color */
+        font-family: 'Gilroy', sans-serif; /* Set font to Gilroy */
+        transition: transform 0.3s; /* Add transition for smooth effect */
+    }
+    
+    .button:hover {
+        transform: scale(1.20); /* Enlarge the logo when hovered */
+    }
+}
