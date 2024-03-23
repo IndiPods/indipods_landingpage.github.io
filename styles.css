@@ -63,3 +63,27 @@ body {
 .button:hover {
     transform: scale(1.20); /* Enlarge the logo when hovered */
 }
+
+@media screen and (max-aspect-ratio: 0.9) {
+    body {
+        
+        margin: 0;
+        padding: 0;
+        background-color: #7aacff;
+        background-image: url("webpage_mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+/* Media query for screens with aspect ratio greater than 16:9 */
+@media screen and (min-aspect-ratio: 0.9) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #7aacff;
+        background-image: url("webpage.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
