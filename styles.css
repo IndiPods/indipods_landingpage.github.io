@@ -38,7 +38,7 @@ MOBILE APPLICATION
         position: absolute;
         width: 33%;
         height: auto;
-        margin-top: -40%;
+        margin-top: -59%;
         margin-left: 3%;
         transition: transform 0.3s; /* Add transition for smooth effect */
         justify-content: center;
@@ -53,19 +53,19 @@ MOBILE APPLICATION
         position: absolute;
         max-width: 90%; /* Set maximum width to 50% of the container width */
         height: auto; /* Maintain aspect ratio */
-        margin-top: 17%; /* Adjust as needed */
+        margin-top: -8%; /* Adjust as needed */
     }
     .button {
         position: absolute;
-        margin-top: 55%; /* Adjust as needed */
-        padding: 3.5% 9%; /* Responsive padding */
+        margin-top: 25%; /* Adjust as needed */
+        padding: 4% 12%; /* Responsive padding */
         border: 1px solid #ffffff; /* Border color */
         color: #ffffff; /* Text color */
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 2.6vw; /* Responsive font size */
-        border-radius: 5vw; /* Responsive border radius */
+        font-size: 3vw; /* Responsive font size */
+        border-radius: 8vw; /* Responsive border radius */
         background-color: transparent; /* No background color */
         font-family: 'Gilroy', sans-serif; /* Set font to Gilroy */
         transition: transform 0.3s; /* Add transition for smooth effect */
